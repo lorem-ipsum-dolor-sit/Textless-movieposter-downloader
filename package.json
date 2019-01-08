@@ -1,0 +1,17 @@
+{
+  "name": "bot_post-dl",
+  "version": "1.0.0",
+  "scripts": {
+    "run": "node bot.js",
+    "run:test:s": "node bot.js \"searching\"",
+    "run:test:f": "node bot.js \"alita: battle angle\""
+
+  },
+  "dependencies": {
+    "7zip-min": "^1.0.1",
+    "fetch-progress": "^1.0.2",
+    "fs-extra": "^7.0.1",
+    "node-fetch": "^2.3.0",
+    "progress": "^2.0.3"
+  }
+}
